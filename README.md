@@ -13,13 +13,14 @@ This document describes Go design philosophies I personally try to use/start wit
 
 ## Dependencies
 
-1. External dependencies should fail fast or allow for reconciliation
+1. External dependencies should fail fast or just keep trying
     - external connections, port binding, environment variables, secrets, etc
     - Fail fast
-        - Don't wait for traffic before binding to ports or testing external connections
-    - Allow for reconciliation
-        - should block traffic or calls until things are healthy
-        - should be accompanied by some way to check health
+     - bind and/or make external connections immediately
+     - Don't wait for traffic before binding to ports or establishing external connections
+    - Keep trying
+     - should block ingress traffic or calls until connections are made, or things are healthy
+     - should be accompanied by some way to check health status of these dependencies
 2. Make all dependencies explicit [11]
 
 ## Naming
