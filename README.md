@@ -1,6 +1,6 @@
 # Design Philosophy
 
-This document describes Go design philosophies I personally try to use/start with when working, building, or writing in Go.
+This living document describes some Go design philosophies I personally try to use/start with when working, building, or writing in Go.
 
 ## General
 
