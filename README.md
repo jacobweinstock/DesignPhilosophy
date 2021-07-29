@@ -60,7 +60,7 @@ This living document describes some Go design philosophies I personally try to u
 ## Errors
 
 1. Error Handling [15]
-    - `main` should normally be the only one calling fatal errors or `os.Exit`
+    - Func `main` should normally be the only one calling fatal errors or `os.Exit`
 
 ## Source files
 
