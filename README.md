@@ -66,7 +66,7 @@ This document describes Go design philosophies I personally try to use/start wit
 
 1. One file should be named like the package [9]
 2. One file = One responsibility [9]
-3. If you only have one command prefer a top level `main.go`, if you have more than one command put them in `cmd/`
+3. If you only have one command prefer a top level `main.go`, if you have more than one command put them in a `cmd/` package
 
 ---
 
