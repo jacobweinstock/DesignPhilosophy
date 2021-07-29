@@ -53,7 +53,7 @@ This document describes Go design philosophies I personally try to use/start wit
     - One function has one goal
     - Simple names
     - Reduce the number of nesting levels
-3. Only func main has the right to decide which flags, env variables, config files are available to the user [10]
+3. Only func main has the right to decide which flags, env variables, config files are available to the user [10a],[10b]
 4. `context.Context` should, in most cases, be the first argument of all functions or methods
 5. Prefer synchronous functions - functions which return their results directly or finish any callbacks or channel ops before returning - over asynchronous ones. [8]
 
@@ -79,7 +79,8 @@ This document describes Go design philosophies I personally try to use/start wit
 [7]: http://c2.com/xp/YouArentGonnaNeedIt.html
 [8]: https://github.com/golang/go/wiki/CodeReviewComments#synchronous-functions
 [9]: https://www.practical-go-lessons.com/chap-40-design-recommendations?s=03#source-files
-[10]: https://thoughtbot.com/blog/where-to-define-command-line-flags-in-go,https://peter.bourgon.org/go-best-practices-2016/#configuration 
+[10a]: https://thoughtbot.com/blog/where-to-define-command-line-flags-in-go
+[10b]: https://peter.bourgon.org/go-best-practices-2016/#configuration 
 [11]: https://peter.bourgon.org/go-best-practices-2016/#top-tip-9
 [12]: https://twitter.com/peterbourgon/status/1121023995107782656
 [13]: https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html
