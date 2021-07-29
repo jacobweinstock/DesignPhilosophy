@@ -33,8 +33,8 @@ This living document describes some Go design philosophies I personally try to u
     - Short: no more than one word
     - No plural
     - Lower case
-    - Informative about the service it gives
-    - Avoid utilities/models packages
+    - Informative about the service it provides
+    - Avoid packages named utility/utilities or model/models
 3. Avoid renaming imports except to avoid a name collision; good package names should not require renaming [3]
 
 ## Interfaces
