@@ -9,7 +9,8 @@ This living document describes some Go design philosophies I personally try to u
 3. When you spawn goroutines, make it clear when - or whether - they exit. [2]
 4. Packages that are imported only for their side effects should be avoided [4]
 5. Package level and global variables should be avoided
-6. magic is bad; global state is magic → no package level vars; no func init [13]
+6. Magic is bad; global state is magic → no package level vars; no func init [13]
+7. Engineer with clear and obvious layers of concern and purpose. [16]
 
 ## Dependencies
 
@@ -86,3 +87,4 @@ This living document describes some Go design philosophies I personally try to u
 [13]: https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html
 [14]: https://code.tutsplus.com/articles/master-developers-addy-osmani--net-31661
 [15]: https://www.practical-go-lessons.com/chap-40-design-recommendations?s=03#key-takeaways
+[16]: https://github.com/ardanlabs/service/wiki#design-philosophy-review-and-culture
