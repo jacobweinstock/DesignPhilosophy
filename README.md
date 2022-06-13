@@ -79,7 +79,7 @@ This living document describes some Go design philosophies I personally try to u
 [6]: https://www.practical-go-lessons.com/chap-40-design-recommendations?s=03#use-interfaces
 [7]: http://c2.com/xp/YouArentGonnaNeedIt.html
 [8]: https://github.com/golang/go/wiki/CodeReviewComments#synchronous-functions
-[9]: https://www.practical-go-lessons.com/chap-40-design-recommendations?s=03#source-files
+[9]: https://dave.cheney.net/practical-go/presentations/qcon-china.html#_arrange_code_into_files_by_import_statements
 [10a]: https://thoughtbot.com/blog/where-to-define-command-line-flags-in-go
 [10b]: https://peter.bourgon.org/go-best-practices-2016/#configuration 
 [11]: https://peter.bourgon.org/go-best-practices-2016/#top-tip-9
