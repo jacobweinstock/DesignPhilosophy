@@ -83,7 +83,7 @@ This living document describes some Go design philosophies I personally try to u
 [10a]: https://thoughtbot.com/blog/where-to-define-command-line-flags-in-go
 [10b]: https://peter.bourgon.org/go-best-practices-2016/#configuration 
 [11]: https://peter.bourgon.org/go-best-practices-2016/#top-tip-9
-[12]: https://twitter.com/peterbourgon/status/1121023995107782656
+[12]: https://peter.bourgon.org/blog/2019/04/24/go-naming-tips.html
 [13]: https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html
 [14]: https://code.tutsplus.com/articles/master-developers-addy-osmani--net-31661
 [15]: https://www.practical-go-lessons.com/chap-40-design-recommendations?s=03#key-takeaways
